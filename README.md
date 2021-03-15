@@ -1,5 +1,4 @@
-![logo](/images/ConsortM-logo.png | width=48)
-
+<img src="https://github.com/thh32/consortm/images/ConsortM-logo.png" width="48">
 
 ## Installation
 
