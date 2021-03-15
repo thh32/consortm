@@ -9,13 +9,14 @@ Acting as a series of scripts, ConsortM accepts raw MALDI profiles (tested on th
 
 
 
-## Installation
+# Installation
 
-# Conda
+## Conda
 
 ConsortM is installable via conda using the command; `conda install -c thitch consortm`
 
-## Usage
+
+# Usage
 
 ConsortM requires two inputs; the raw MALDI profiles, and the project name.
 
@@ -23,7 +24,8 @@ The raw MALDI profiles must be provided as a folder, containing sub-folders name
 
 ConsortM can then be run using the command; `ConsortM.py -i $RAW_DATA -p $PROJECT_ID`
 
-## Citation
+
+# Citation
 ConsortM is currently being prepared as a manuscript.
 
 In addition to our work, please also cite the following publications which provide code underpinning ConsortM;
