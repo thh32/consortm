@@ -1,4 +1,4 @@
-![logo](/images/ConsortM-logo.png)
+![logo](/images/ConsortM-logo.png | width=48)
 
 
 ## Installation
