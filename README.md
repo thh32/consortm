@@ -1,5 +1,4 @@
-# consortm
-ConsortM: MALDI-based consortia monitoring
+![logo](/images/ConsortM-logo.png)
 
 
 ## Installation
