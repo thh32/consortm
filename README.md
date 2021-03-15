@@ -1,4 +1,6 @@
-<img src="/images/ConsortM-logo.png" width="400" align="center">
+<p align="center">
+<img src="/images/ConsortM-logo.png" width="400">
+</p>
 
 
 ConsortM is a package designed to facilitate continual quick, cheap and reliable monitoring of minimal microbial consortia, via the use of MALDI-TOF MS.
