@@ -1,4 +1,18 @@
 <img src="/images/ConsortM-logo.png" width="400" class="center">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+ConsortM is a package designed to facilitate continual quick, cheap and reliable monitoring of minimal microbial consortia, via the use of MALDI-TOF MS.
+
+Acting as a series of scripts, ConsortM accepts raw MALDI profiles (tested on the Brucker Biotyper) and provide both visual and statstical comparison of different groups, be these the same consortia over time, or different consortia.
+
+
 
 ## Installation
 
