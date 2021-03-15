@@ -1,4 +1,4 @@
-![logo](/images/ConsortM-logo.png){:height="50%" width="50%"}
+![logo](/images/ConsortM-logo.png&s=50)
 
 
 ## Installation
