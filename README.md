@@ -24,6 +24,12 @@ The raw MALDI profiles must be provided as a folder, containing sub-folders name
 
 ConsortM can then be run using the command; `ConsortM.py -i $RAW_DATA -p $PROJECT_ID`
 
+# Example dataset
+
+As an example we provide a set of files from three groups; the OligoMM12 consortium, <i>Extibacter muris</i>, and the combination of the OligoMM12 consortium with <i>Extibacter muris</i> included.
+
+<img src="/images/ConsortM-logo.png" width="400">
+
 
 # Citation
 ConsortM is currently being prepared as a manuscript.
