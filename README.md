@@ -28,7 +28,7 @@ ConsortM can then be run using the command; `ConsortM.py -i $RAW_DATA -p $PROJEC
 
 As an example we provide a set of files from three groups; the OligoMM12 consortium, <i>Extibacter muris</i>, and the combination of the OligoMM12 consortium with <i>Extibacter muris</i> included.
 
-<img src="/images/ConsortM-logo.png" width="400">
+<img src="/images/Example_output.png" width="400">
 
 
 # Citation
