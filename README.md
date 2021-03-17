@@ -9,14 +9,14 @@ Acting as a series of scripts, ConsortM accepts raw MALDI profiles (tested on th
 
 
 
-# Installation
+## Installation
 
-## Conda
+### Conda
 
 ConsortM is installable via conda using the command; `conda install -c thitch consortm`
 
 
-# Usage
+## Usage
 
 ConsortM requires two inputs; the raw MALDI profiles, and the project name.
 
@@ -24,7 +24,7 @@ The raw MALDI profiles must be provided as a folder, containing sub-folders name
 
 ConsortM can then be run using the command; `ConsortM.py -i $RAW_DATA -p $PROJECT_ID`
 
-# Example dataset
+## Example dataset
 
 As an example we provide a set of files from three groups; the OligoMM12 consortium, <i>Extibacter muris</i>, and the combination of the OligoMM12 consortium with <i>Extibacter muris</i> included.
 
@@ -33,7 +33,7 @@ By running this dataset through ConsortM you should get a plot which looks very 
 <img src="/images/Example_output.png" width="300">
 </p>
 
-# Citation
+## Citation
 ConsortM is currently being prepared as a manuscript.
 
 In addition to our work, please also cite the following publications which provide code underpinning ConsortM;
