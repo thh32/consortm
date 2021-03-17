@@ -28,7 +28,9 @@ ConsortM can then be run using the command; `ConsortM.py -i $RAW_DATA -p $PROJEC
 
 As an example we provide a set of files from three groups; the OligoMM12 consortium, <i>Extibacter muris</i>, and the combination of the OligoMM12 consortium with <i>Extibacter muris</i> included.
 
-<img src="/images/Example_output.png" width="400">
+By running this dataset through ConsortM you should get a plot which looks very similar to that below. Additionally a statistics file should be output which states that all three groups are significantly (adj. p-value <0.01) different from each other.
+
+<img src="/images/Example_output.png" width="200">
 
 
 # Citation
