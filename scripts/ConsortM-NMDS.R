@@ -18,7 +18,6 @@ if (length(args)==0) {
 # Check if required packages are already installed, and install if missing
 #install.packages('vegan', repos='http://cran.us.r-project.org')
 #install.packages('ade4', repos='http://cran.us.r-project.org')
-#install.packages('adoni', repos='http://cran.us.r-project.org')
 
 
 
@@ -26,7 +25,6 @@ library('vegan')
 library('ade4')
 library('ggplot2')
 library('phangorn')
-#library('adoni')
 
 
 ##################################################################################
