@@ -24,6 +24,8 @@ if (length(args)==0) {
 
 library('vegan')
 library('ade4')
+library('ggplot2')
+library('phangorn')
 #library('adoni')
 
 
@@ -141,7 +143,32 @@ dev.off()
 ######                      Provide pairwise statistics                     ######
 ##################################################################################
 
-adonis.pair(as.dist(d_Binary_matrix), Grouping$Condition, nper = 1000, corr.method = "BH")
+stats = adonis.pair(as.dist(d_Binary_matrix), Grouping$Condition, nper = 1000, corr.method = "BH")
 
+write.csv(stats, file = sprintf("%s-statistics.csv",plot_name))
 }
 
+
+
+##################################################################################
+######                          Create dendogram                            ######
+##################################################################################
+color_easy = cols[Grouping$Condition]
+dist_d_Binary_matrix <- as.dist(d_Binary_matrix)
+
+all_fit <- hclust(dist_d_Binary_matrix, method = "ward.D2")
+
+# Generates a tree from the hierarchically generated object
+tree <- as.phylo(all_fit)
+
+# Save the generated phylogram in a pdf file
+outfile <- sprintf("%s-Dendrogram.pdf",plot_name)
+pdf(outfile)
+
+color_easy = cols[Grouping$Condition]
+# The tree is visualized as a Phylogram color-coded by the selected group name
+plot(tree, type = "phylogram",use.edge.length = TRUE, tip.color = (color_easy), label.offset = 0.01, cex=.5)
+print.phylo(tree)
+axisPhylo()
+tiplabels(pch = 16, col = color_easy)
+dev.off()
