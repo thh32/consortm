@@ -141,7 +141,7 @@ print '4. Outputting of combined files complete.'
 
 print '5. Running NMDS analysis .'
 
-bashCommand = 'Rscript ConsortM-NMDS.R ' +  project_name + '_data_summed1.csv ' + project_name + '_groups.csv ' + project_name
+bashCommand = 'ConsortM-NMDS.R ' +  project_name + '_data_summed1.csv ' + project_name + '_groups.csv ' + project_name
 print bashCommand
 process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
