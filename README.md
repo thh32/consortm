@@ -33,6 +33,15 @@ By running this dataset through ConsortM you should get a plot which looks very 
 <img src="/images/Example_output.png" width="300">
 </p>
 
+
+## Output
+
+ConsortM provides three major outputs;
+-	 Multidimensional scaling (MDS) plots of the distance between each groups samples samples
+-	 A dendrogram based on the same distances
+-	Statistical comparison of the distances between each group to each other (pairwise) via PERMANOVA  
+
+
 ## Citation
 ConsortM is currently being prepared as a manuscript.
 
