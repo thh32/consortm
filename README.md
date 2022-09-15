@@ -13,7 +13,13 @@ Acting as a series of scripts, ConsortM accepts raw MALDI profiles (tested on th
 
 ### Conda
 
-ConsortM is installable via conda using the command; `conda install -c thitch consortm`
+ConsortM is installable via conda using the command:
+
+```bash
+conda install -c thitch consortm
+# To add all R dependencies
+conda install -c thitch -c conda-forge consortm r-vegan r-ade4 r-ggplot2 r-phangorn r-factoextra
+```
 
 
 ## Usage
